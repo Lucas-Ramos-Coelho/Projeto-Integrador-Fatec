@@ -342,58 +342,58 @@ header .topo .user {
 }
 
 footer {
-    background-color: #1FA383; /* Cor de fundo do rodapé */
-    color: #fff; /* Cor do texto */
-    padding: 20px 0; /* Espaçamento interno do rodapé */
-    text-align: center; /* Centraliza o texto */
-    font-family: 'Poppins', sans-serif; /* Fonte utilizada */
+    background-color: #1FA383; 
+    color: #fff; 
+    padding: 20px 0; 
+    text-align: center; 
+    font-family: 'Poppins', sans-serif; 
 }
 
 footer .container {
-    max-width: 1200px; /* Largura máxima do container */
-    margin: 0 auto; /* Centraliza o container horizontalmente */
-    display: flex; /* Utiliza flexbox */
-    flex-direction: column; /* Direção das flexões */
-    align-items: center; /* Centraliza os itens */
-    gap: 10px; /* Espaçamento entre os elementos */
+    max-width: 1200px; 
+    margin: 0 auto; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 10px; 
 }
 
 footer .direitos {
-    font-size: 11px; /* Tamanho da fonte para "Todos os direitos reservados" */
-    text-align: center; /* Centraliza o texto */
-    margin-bottom: 10px; /* Espaçamento abaixo do texto */
+    font-size: 11px; 
+    text-align: center; 
+    margin-bottom: 10px; 
 }
 
 footer .info {
-    text-align: left; /* Alinha o texto à esquerda */
-    display: flex; /* Utiliza flexbox */
-    flex-direction: column; /* Direção das flexões */
-    align-items: flex-start; /* Alinha os itens à esquerda */
-    margin-left: auto; /* Empurra o container para a esquerda */
-    margin-right: 0; /* Remove o espaço à direita */
-    max-width: 300px; /* Define uma largura máxima */
+    text-align: left; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start; 
+    margin-left: auto; 
+    margin-right: 0; 
+    max-width: 300px; 
 }
 
 footer .info p {
-    margin: 5px 0; /* Espaçamento entre os parágrafos */
-    font-size: 14px; /* Tamanho da fonte */
+    margin: 5px 0; 
+    font-size: 14px; 
 }
 
-/* Estilos Responsivos para Telas Pequenas */
+
 @media (max-width: 768px) {
     footer .container {
-        flex-direction: column; /* Empilha os itens verticalmente */
-        align-items: center; /* Centraliza os itens */
+        flex-direction: column; 
+        align-items: center; 
     }
 
     footer .info {
-        align-items: center; /* Centraliza os itens */
-        margin-left: 0; /* Remove a margem esquerda */
-        margin-right: 0; /* Remove a margem direita */
-        text-align: center; /* Centraliza o texto */
+        align-items: center; 
+        margin-left: 0; 
+        margin-right: 0; 
+        text-align: center; 
     }
 }
-/* Media Queries para Responsividade */
+
 @media (max-width: 1200px) {
     header .topo {
         flex-direction: column;
